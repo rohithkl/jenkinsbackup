@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-18 16:38:44.377 UTC</timestamp>
+  <md5sum>d8277bc08d5684c2e5a56bbb84ade2f5</md5sum>
+  <fileName>Credential id=35.78.189.233 name=ec2-user (server)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1668957964323</timestamp>
+      <nodeName>cslave</nodeName>
+      <timestamp0>1668957074692</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

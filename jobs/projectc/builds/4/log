@@ -1,0 +1,23 @@
+Started by user [8mha:////4Fc+VbXVAkKcSZ1bHl+TEkIYGWARHI3DRDWX8IrtanZ8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYe/dLi1CL9ovyMzJIMAKqacUPBAAAA[0mRohith KL
+Running as SYSTEM
+Building remotely on [8mha:////4Cu8dFpxoeZs8tKCR/BbzPMzqaOzyx3ISvxLR1zqUWc8AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eTinMSyVACnTez1xQAAAA==[0mcslave in workspace /opt/jenkins/workspace/projectc
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/projectc/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rohithkl/projectc.git # timeout=10
+Fetching upstream changes from https://github.com/rohithkl/projectc.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/rohithkl/projectc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 833a751ca0a43a643e5cd752c5d9c6fc31dad1aa (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 833a751ca0a43a643e5cd752c5d9c6fc31dad1aa # timeout=10
+Commit message: "added c source codes"
+ > git rev-list --no-walk 833a751ca0a43a643e5cd752c5d9c6fc31dad1aa # timeout=10
+[projectc] $ /bin/sh -xe /tmp/jenkins13076675036648776801.sh
++ cd /var/lib/jenkins/workspace/projectc
+/tmp/jenkins13076675036648776801.sh: line 2: cd: /var/lib/jenkins/workspace/projectc: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

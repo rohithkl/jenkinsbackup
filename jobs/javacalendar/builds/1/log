@@ -1,0 +1,22 @@
+Started by user [8mha:////4Fc+VbXVAkKcSZ1bHl+TEkIYGWARHI3DRDWX8IrtanZ8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYe/dLi1CL9ovyMzJIMAKqacUPBAAAA[0mRohith KL
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/javacalendar
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/rohithkl/javacalendar.git
+ > git init /var/lib/jenkins/workspace/javacalendar # timeout=10
+Fetching upstream changes from https://github.com/rohithkl/javacalendar.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/rohithkl/javacalendar.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rohithkl/javacalendar.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 8a442a13c04d85e28a47d6af4b73c672f672a70d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8a442a13c04d85e28a47d6af4b73c672f672a70d # timeout=10
+Commit message: "Calendar: Use 'THU' Instead of 'THUR' for Thursday * All other Day are 3 chars, while Thursday uses THUR, that looks bit odd, so lets just make it similar to others"
+First time build. Skipping changelog.
+Finished: SUCCESS
